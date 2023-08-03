@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>tool_point_calibration</name>
+  <version>0.1.0</version>
+  <description>
+    A simple package that uses the Ceres optimization library to perform simple,
+    3-DOF tool-center-point calibration. Users should "touch" the same point in
+    space at least three times and record the tool0 position of the robot each
+    time. This package then runs an optimization to figure out what the tool
+    point is.
+  </description>
+
+  <maintainer email="jmeyer@swri.org">Jonathan Meyer</maintainer>
+  <author email="jmeyer@swri.org">Jonathan Meyer</author>
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>tf</build_depend>
+  <build_depend>tf_conversions</build_depend>
+
+  <run_depend>tf</run_depend>
+  <run_depend>tf_conversions</run_depend>
+</package>

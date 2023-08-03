@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<launch>
+
+   <node pkg="tf2_ros" 
+         type="static_transform_publisher" 
+         name="camera_frame" 
+         args="0.13024159630613294 -0.001600118841654025 0.04179476593547305  -0.001808  0.905298 -0.007802  0.424702   ur5_flange camera_frame" >
+         <param name="rate" value="1000"/>
+   </node> 
+
+</launch>

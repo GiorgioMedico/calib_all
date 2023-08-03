@@ -1,0 +1,41 @@
+RMS Error:  0.8064946901425122
+calibrate return value:  True
+First Calibration ==================================================
+
+Camera Matrix
+[[1556.915703    0.        985.633295]
+ [   0.       1562.525214  587.067456]
+ [   0.          0.          1.      ]]
+
+Camera Distortions
+[[ 0.068089  0.130827  0.014296  0.002866 -0.588156]]
+
+Refined Calibration ==================================================
+
+Camera Matrix
+[[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+
+Camera Distortions
+[[ 0.068089  0.130827  0.014296  0.002866 -0.588156]]
+==================================================
+ Exstrinsics Computation...
+ ==================================================
+Initial Guess: [0.   0.04 0.06 0.   0.   1.   0.  ]
+Bounds: [(-0.3, 0.3), (-0.3, 0.3), (-0.3, 0.3), (-inf, inf), (-inf, inf), (-inf, inf), (-inf, inf)]
+Offset Factor: [0.0, 0.0, 0.0]
+initial guess rotation:  [  0.   0. 180.]
+
+Extrinsics ==================================================
+
+Camera Frame: [X,Y,Z,QX,QY,QZ,QW]
+position:  [0.0017758721902284543, 0.05171514529791572, 0.10236570223276018]
+quaternions:  [-0.026673  0.00793  -0.008786  0.999574]
+
+Camera Frame orientation: [Roll Pitch Yaw] deg
+[-3.064978  0.881466 -1.030762]
+
+Camera Frame orientation: [Roll Pitch Yaw] rad
+[-0.053494  0.015384 -0.01799 ]
+
