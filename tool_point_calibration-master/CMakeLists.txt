@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(tool_point_calibration)
 
+add_definitions(-std=c++17)
+set(CMAKE_BUILD_TYPE Release)
+
 find_package(catkin REQUIRED COMPONENTS
   tf
   tf_conversions
@@ -16,7 +19,6 @@ catkin_package(
 )
 
 include_directories(include ${catkin_INCLUDE_DIRS} ${EIGEN3_INCLUDE_DIRS} ${EIGEN_INCLUDE_DIRS})
-add_definitions(-std=c++11)
 
 # The core tool calibration library
 add_library(${PROJECT_NAME}
